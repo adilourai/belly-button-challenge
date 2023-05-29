@@ -124,7 +124,7 @@ var trace1 = {
 
 // Append text to metadata panel
 const sample_metadata = document.getElementById('sample-metadata');
-const text = document.createTextNode('id: '+(String(dataArray[0].metadata.id))+'\nethnicity: '+
+const text = document.createTextNode('id: '+(String(dataArray[0].metadata.id))+'ethnicity: '+
 (dataArray[0].metadata.ethnicity)+'\ngender: '+(dataArray[0].metadata.gender)+
 '\nage: '+(String(dataArray[0].metadata.age))+'\nlocation: '+(dataArray[0].metadata.location)+
 '\nbbtype: '+(dataArray[0].metadata.bbtype)+'\nwfreq: '+(String(dataArray[0].metadata.wfreq)));
